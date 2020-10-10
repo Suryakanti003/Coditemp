@@ -1,0 +1,35 @@
+html, body{
+    background-color: aquamarine;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Algerian;
+}
+
+h1{
+    font-size: 56px;
+    color: darkmagenta;
+}
+
+h2{
+    color: darkmagenta;
+}
+
+button{
+    font-size: 32px;
+    background-color: crimson;
+    font-family: Algerian;
+}
+
+a{
+    color: cadetblue;
+    font-family: Algerian;
+}
+
+input{
+    font-size: x-large;
+    font-family: Algerian;
+}
+
+p{
+    font-size: larger;
+}
