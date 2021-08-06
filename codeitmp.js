@@ -6,17 +6,13 @@ function encode(a) {
 for (let num=0; num < seq.length; num++) {
  var outen= a;
     outen=outen.replaceAll(seq[num], code1[num]);
-  }
-    setTimeout(function(){ 
+  } 
     return outen;
-}, 100);
 }
 function decode(b){
   for (let num=0; num < seq.length; num++) {
      var outde= b;
       outde=outde.replaceAll( code1[num],seq[num]);
     }
-   setTimeout(function(){ 
-     return outde;
-}, 100);  
+     return outde; 
 }
