@@ -6,6 +6,7 @@ function encode(a) {
 for (let num=0; num < seq.length; num++) {
  var outen= a;
     outen=outen.replaceAll(seq[num], code1[num]);
+    alert(outen);
   } 
     return outen;
 }
