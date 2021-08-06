@@ -1,8 +1,15 @@
 function encodet() {
 var inpv =document.getElementById("inptext").value;
-   document.getElementById("out").innerHTML=encode(inpv);
+   var outv=encode(inpv);
+   setTimeout(function(){ 
+     document.getElementById("out").innerHTML=outv;
+}, 100);
 }
 function decodet() {
 var inpv2 =document.getElementById("inptext2").value;
-   document.getElementById("out2").innerHTML=decode(inpv2);
+   var outv2=decode(inpv2);
+   setTimeout(function(){ 
+    
+   document.getElementById("out2").innerHTML=outv2;
+}, 100);
 }
