@@ -6,11 +6,15 @@ function encode(a) {
 for (let num=0; num < seq.length; num++) {
  var outen= a.replaceAll(seq[num], code1[num]);
   }
-   return outen;
+    setTimeout(function(){ 
+    return outen;
+}, 100);
 }
 function decode(b){
   for (let num=0; num < seq.length; num++) {
      var outde= b.replaceAll( code1[num],seq[num]);
     }
-      return outde;
+   setTimeout(function(){ 
+     return outde;
+}, 100);  
 }
