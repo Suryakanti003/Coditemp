@@ -3,7 +3,7 @@ var inpv =document.getElementById("inptext").value;
    var outv=encode(inpv);
    setTimeout(function(){ 
      document.getElementById("out").innerHTML=outv;
-}, 100);
+}, 1000);
 }
 function decodet() {
 var inpv2 =document.getElementById("inptext2").value;
@@ -11,5 +11,5 @@ var inpv2 =document.getElementById("inptext2").value;
    setTimeout(function(){ 
     
    document.getElementById("out2").innerHTML=outv2;
-}, 100);
+}, 1000);
 }
