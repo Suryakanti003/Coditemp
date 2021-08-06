@@ -4,7 +4,8 @@ const code1=[
   var seq=" "+"a"+"b"+"c"+"d"+"e"+"f"+"g"+"h"+"i"+"j"+"k"+"l"+"m"+"n"+"o"+"p"+"q"+"r"+"s"+"t"+"u"+"v"+"w"+"x"+"y"+"z"+"9"+"2"+"4";
 function encode(a) {
 for (let num=0; num < seq.length; num++) {
- var outen= a.replaceAll(seq[num], code1[num]);
+ var outen= a;
+    outen=outen.replaceAll(seq[num], code1[num]);
   }
     setTimeout(function(){ 
     return outen;
@@ -12,7 +13,8 @@ for (let num=0; num < seq.length; num++) {
 }
 function decode(b){
   for (let num=0; num < seq.length; num++) {
-     var outde= b.replaceAll( code1[num],seq[num]);
+     var outde= b;
+      outde=outde.replaceAll( code1[num],seq[num]);
     }
    setTimeout(function(){ 
      return outde;
