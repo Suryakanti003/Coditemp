@@ -1,5 +1,7 @@
 body {
- font-size:25px; 
+ font-size:25px;
+
+  align-content: center;
   }
 textarea {
   resize: none;
