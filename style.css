@@ -1,8 +1,12 @@
 body {
- font-size:40px; 
+ font-size:25px; 
   }
 textarea {
   resize: none;
   width:50%;
   height :20vh;
+ font-size:40px; 
   }
+button {
+ font-size:40px; 
+ }
