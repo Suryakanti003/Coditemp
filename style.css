@@ -1,12 +1,13 @@
 body {
  font-size:25px;
-
+ display: flex;
+  text-align: center;
   align-content: center;
   }
 textarea {
   resize: none;
   width:50%;
-  height :20vh;
+  height :90px;
  font-size:40px; 
   }
 button {
