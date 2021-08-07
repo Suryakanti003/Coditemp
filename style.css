@@ -1,1 +1,8 @@
-
+body {
+ font-size:40px; 
+  }
+textarea {
+  resize: none;
+  width:50%;
+  height :20vh;
+  }
