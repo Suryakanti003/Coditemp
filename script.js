@@ -1,4 +1,4 @@
-var seq=" "+"a"+"b"+"c"+"d"+"e"+"f"+"g"+"h"+"i"+"j"+"k"+"l"+"m"+"n"+"o"+"p"+"q"+"r"+"s"+"t"+"u"+"v"+"w"+"x"+"y"+"z"+"9"+"2"+"4";
+/*var seq=" "+"a"+"b"+"c"+"d"+"e"+"f"+"g"+"h"+"i"+"j"+"k"+"l"+"m"+"n"+"o"+"p"+"q"+"r"+"s"+"t"+"u"+"v"+"w"+"x"+"y"+"z"+"9"+"2"+"4";
 const code1=[
   "◒","।","ऋ","॥","ऽ","ꣳ","ᳩ","ॐ","ᳪ","अ","ॽ","ई","ऐ","ऌ","इ","उ","ऊ","ए","ॠ","आ","ॡ","१","ॿ","७","६","य","४","ক","খা","ঙ"
 ];
@@ -26,4 +26,17 @@ function decodet(){
   setTimeout(function(){ 
       document.getElementById("out2").innerHTML=output;
   }, 100);
+}*/
+ var outv=encode(inpv);
+   setTimeout(function(){ 
+     document.getElementById("out").innerHTML=outv;
+}, 1000);
+}
+function decodet() {
+var inpv2 =document.getElementById("inptext2").value;
+   var outv2=decode(inpv2);
+   setTimeout(function(){ 
+
+   document.getElementById("out2").innerHTML=outv2;
+}, 1000);
 }
