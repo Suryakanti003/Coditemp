@@ -8,8 +8,13 @@ textarea {
   resize: none;
   width:50%;
   height :90px;
+ align-self: center;
  font-size:40px; 
   }
 button {
  font-size:40px; 
+ align-self: center;
+ }
+div {
+ align-self: center;
  }
