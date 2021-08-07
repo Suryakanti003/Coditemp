@@ -14,7 +14,7 @@ for (num=0; num < seq.length; num++) {
   } 
     return outen;
 }
-function decode(b){
+/*function decode(b){
     num=0;
   for (num=0; num < seq.length; num++) {
       outde= b;
@@ -22,3 +22,4 @@ function decode(b){
     }
      return outde; 
 }
+*/
