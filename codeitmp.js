@@ -10,6 +10,7 @@ function encode(a) {
 for (num=0; num < seq.length; num++) {
   outen= a;
     outen=outen.replaceAll(seq[num], code1[num]);
+    console.log(outen+seq[num]+code1[num]);
   } 
     return outen;
 }
