@@ -6,12 +6,17 @@ body {
   }
 textarea {
   resize: none;
-  width:50%;
+  width:90%;
+ border-radius: 45px;
   height :90px;
  font-size:40px; 
   }
 button {
  font-size:40px; 
+ width:200px;
+ height:42px;
+ border-radius: 21px;
  }
 div {
+ font-size:40px;
  }
