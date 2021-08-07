@@ -11,15 +11,16 @@ textarea {
  border-radius: 13px;
   height :90px;
  font-size:40px; 
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   }
 button {
+ background-color:white;
  margin: 3px;
  font-size:40px; 
  width:200px;
  height:48px;
  border-radius: 10px;
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
  }
 div {
  overflow-x: hidden;
@@ -28,6 +29,6 @@ div {
  margin: 3px;
  font-size:40px;
  border-radius: 10px;
- box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
  width: fit-content;
  }
