@@ -7,15 +7,15 @@ body {
 textarea {
   resize: none;
   width:90%;
- border-radius: 45px;
+ border-radius: 13px;
   height :90px;
  font-size:40px; 
   }
 button {
  font-size:40px; 
  width:200px;
- height:42px;
- border-radius: 21px;
+ height:48px;
+ border-radius: 22px;
  }
 div {
  font-size:40px;
