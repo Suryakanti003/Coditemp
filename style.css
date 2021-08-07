@@ -10,13 +10,17 @@ textarea {
  border-radius: 13px;
   height :90px;
  font-size:40px; 
+ box-shadow: 10px 10px 5px grey;
   }
 button {
  font-size:40px; 
  width:200px;
  height:48px;
  border-radius: 22px;
+ box-shadow: 10px 10px 5px grey;
  }
 div {
  font-size:40px;
+ box-shadow: 10px 10px 5px grey;
+ border-radius: 10px;
  }
