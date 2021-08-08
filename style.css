@@ -30,7 +30,7 @@ div:hover{
   box-shadow: rgba(10, 37, 64, 0.25) 0px 2px 4px 0px inset;
 }
 div {
- overflow-x: hidden;
+ height:auto;
 
   overflow-y: scroll;
  margin: 3px;
