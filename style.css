@@ -42,3 +42,7 @@ height: fit-content;
 textarea:focus{
   box-shadow: rgba(10, 37, 64, 0.6) 0px 2px 4px 0px inset;
 }
+h1 {
+ width:100%;
+ height:58.8vh;
+ }
