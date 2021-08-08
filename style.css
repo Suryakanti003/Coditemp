@@ -30,7 +30,7 @@ div:hover{
   box-shadow: rgba(10, 37, 64, 0.6) 0px 2px 4px 0px inset;
 }
 div {
- display: block;
+ word-break: break-all;
 height: fit-content;
  margin: 3px;
  font-size:40px;
