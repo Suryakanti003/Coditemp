@@ -11,9 +11,11 @@ textarea {
  border-radius: 13px;
   height :90px;
  font-size:40px; 
+ position:relative;
  box-shadow: rgba(50, 50, 93, 0.45) 0px 50px 100px -20px, rgba(0, 0, 0, 0.45) 0px 30px 60px -30px, rgba(10, 37, 64, 0.25) 0px -2px 6px 0px inset;
   }
 button {
+ position:relative;
  background-color:white;
  margin: 3px;
  font-size:40px; 
@@ -30,6 +32,7 @@ div:hover{
   box-shadow: rgba(10, 37, 64, 0.6) 0px 2px 4px 0px inset;
 }
 div {
+ position:relative;
  word-break: break-all;
 height: fit-content;
  margin: 3px;
@@ -48,3 +51,59 @@ h1 {
  background-image: url("represent.jpg");
  background-size: 100% 58.8vw;
  }
+div::before {
+    animation: 10s rotate linear infinite;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:10px; 
+    padding:0.5px; 
+    background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude; 
+  }
+textarea::before {
+    animation: 10s rotate linear infinite;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:13px; 
+    padding:0.5px; 
+    background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude; 
+  }
+button::before {
+    animation: 10s rotate linear infinite;
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    border-radius:10px; 
+    padding:0.5px; 
+    background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out; 
+    mask-composite: exclude; 
+  }
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
