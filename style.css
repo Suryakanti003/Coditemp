@@ -28,10 +28,10 @@ button {
  }
 button:hover {
   cursor: pointer;
-  box-shadow: rgba(10, 37, 64, 0.6) 0px 2px 4px 0px inset;
+  box-shadow: rgba(10, 37, 64, 0.6) 0px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div:hover{
-  box-shadow: rgba(10, 37, 64, 0.6) 0px 2px 4px 0px inset;
+ box-shadow: rgba(10, 37, 64, 0.6) 0px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div {
  border-style: none;
@@ -46,7 +46,8 @@ height: fit-content;
  max-width: 100%;
  }
 textarea:focus{
-  box-shadow: rgba(10, 37, 64, 0.6) 0px 2px 4px 0px inset;
+  outline: none;
+ box-shadow: rgba(10, 37, 64, 0.6) 0px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 h1 {
  width:100%;
