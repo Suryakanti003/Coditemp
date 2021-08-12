@@ -43,3 +43,6 @@ function decodet(){
      copyToClipboard(output);
   }, 100);
 }
+document.document.getElementsByTagName("h1")[0].ondblclick = function() {
+ rotate();
+};
