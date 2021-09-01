@@ -65,7 +65,7 @@ h1 {
  background-image: url("represent.jpg");
  background-size: 100% 58.8vw;
  }
-div::before {
+/*div::before {
     animation: 10s rotate linear infinite;
     content:"";
     position:absolute;
@@ -120,4 +120,4 @@ button::before {
     syntax: '<angle>';
     initial-value: 0deg;
     inherits: false;
-  }
+  }*/
