@@ -13,7 +13,7 @@ textarea {
   height :90px;
  font-size:40px; 
  position:relative;
- box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 10px #656565,
+ box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 20px rgba(8, 35, 62, 0.55),
              -5px -5px 10px #ffffff;
   background: linear-gradient(145deg, #ffffff, #efefef);
   }
@@ -26,16 +26,16 @@ button {
  width:200px;
  height:48px;
  border-radius: 10px;
-  box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 10px #656565,
+  box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 10px rgba(8, 35, 62, 0.55),
              -5px -5px 10px #ffffff;
   background: linear-gradient(145deg, #ffffff, #efefef);
  }
 button:hover {
   cursor: pointer;
-  box-shadow: rgba(10, 37, 64, 0.6) 0px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
+  box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div:hover{
- box-shadow: rgba(10, 37, 64, 0.6) 0px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
+ box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div {
  border-style: none;
@@ -46,7 +46,7 @@ height: fit-content;
  margin: 3px;
  font-size:40px;
  border-radius: 10px;
-   box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 10px #656565,
+   box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 20px rgba(8, 35, 62, 0.55),
              -5px -5px 10px #ffffff;
   background: linear-gradient(145deg, #ffffff, #efefef);
  width: fit-content;
@@ -54,7 +54,7 @@ height: fit-content;
  }
 textarea:focus{
   outline: none;
- box-shadow: rgba(10, 37, 64, 0.6) 0px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
+ box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 h1 {
  width:100%;
