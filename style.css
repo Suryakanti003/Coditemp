@@ -5,6 +5,7 @@ body {
   align-content: center;
   }
 textarea {
+ margin-top: 50px;
  border-style: none;
  margin: 3px;
   resize: none;
@@ -18,6 +19,7 @@ textarea {
   background: linear-gradient(145deg, #ffffff, #efefef);
   }
 button {
+ margin-top: 50px;
  border-style: none;
  position:relative;
  background-color:white;
@@ -38,6 +40,7 @@ div:hover{
  box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div {
+ margin-top: 50px;
  border-style: none;
  position:relative;
  word-break: break-all;
