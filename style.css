@@ -7,7 +7,6 @@ body {
 textarea {
  margin-top: 50px;
  border-style: none;
- margin: 3px;
   resize: none;
   width:90%;
  border-radius: 13px;
@@ -23,7 +22,6 @@ button {
  border-style: none;
  position:relative;
  background-color:white;
- margin: 3px;
  font-size:40px; 
  width:200px;
  height:48px;
@@ -46,7 +44,6 @@ div {
  word-break: break-all;
 height: fit-content;
  background-color: white;
- margin: 3px;
  font-size:40px;
  border-radius: 10px;
    box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 20px rgba(8, 35, 62, 0.55),
