@@ -33,7 +33,7 @@ function decodet(){
 
     code1=input[i].charCodeAt(0).toString(10);
 
- output =parseInt(code1)+1;
+ output =parseInt(code1)-1;
 
   final+=String.fromCodePoint(output);
 
