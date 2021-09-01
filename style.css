@@ -91,7 +91,7 @@ textarea::before {
     right:0;
     bottom:0;
     border-radius:13px; 
-    padding:1px; 
+    padding:3px; 
     background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
     -webkit-mask: 
        linear-gradient(#fff 0 0) content-box, 
