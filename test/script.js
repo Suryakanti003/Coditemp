@@ -5,6 +5,6 @@ function encodet(){
     if (i>=input.length){
     document.getElementById("out").innerHTML=output;
     }
-   parseInt( output += input[i].charCodeAt(0).toString(10))+1;
+   output += ( parseInt(input[i].charCodeAt(0).toString(10))+1);
   }
 }
