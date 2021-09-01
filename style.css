@@ -13,7 +13,9 @@ textarea {
   height :90px;
  font-size:40px; 
  position:relative;
- box-shadow: rgba(50, 50, 93, 0.45) 0px 50px 100px -20px, rgba(0, 0, 0, 0.45) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -3px 6px 2px inset;
+ box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 2px 2px inset,5px 5px 10px #656565,
+             -5px -5px 10px #ffffff;
+  background: linear-gradient(145deg, #ffffff, #efefef);
   }
 button {
  border-style: none;
@@ -24,7 +26,9 @@ button {
  width:200px;
  height:48px;
  border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.45) 0px 50px 100px -20px, rgba(0, 0, 0, 0.45) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 4px 0px inset;
+  box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 2px 2px inset,5px 5px 10px #656565,
+             -5px -5px 10px #ffffff;
+  background: linear-gradient(145deg, #ffffff, #efefef);
  }
 button:hover {
   cursor: pointer;
@@ -42,7 +46,9 @@ height: fit-content;
  margin: 3px;
  font-size:40px;
  border-radius: 10px;
-  box-shadow: rgba(50, 50, 93, 0.45) 0px 50px 100px -20px, rgba(0, 0, 0, 0.45) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -3px 5px 1px inset;
+   box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 2px 2px inset,5px 5px 10px #656565,
+             -5px -5px 10px #ffffff;
+  background: linear-gradient(145deg, #ffffff, #efefef);
  width: fit-content;
  max-width: 100%;
  }
