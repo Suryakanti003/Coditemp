@@ -1,4 +1,6 @@
+var rncoded=encode("abcd");
 function encodet(){
+  
   var input = document.getElementById("inptext").value;
   var output ="";
   var code1="";
@@ -14,7 +16,7 @@ function encodet(){
      fo+= String.fromCodePoint(final[i]);
      }  }, 150);*/
    setTimeout(function(){ 
-   document.getElementById("out").innerHTML=final;
+   document.getElementById("out").innerHTML=rncoded;
   }, 200);
 }
 function decodet(){
@@ -54,4 +56,19 @@ function decodet(){
   }, 200);
 
 }
+var input1 = document.getElementById("myfile");
+var output1 = document.getElementById("output");
+var fileE;
 
+input1.addEventListener("change", function () {
+  if (this.files && this.files[0]) {
+    var myFile = this.files[0];
+    var reader = new FileReader();
+    
+    reader.addEventListener('load', function (e) {
+  document.getElementById("out2").innerHTML= e.target.result;
+    });
+    
+    reader.readAsBinaryString(myFile);
+  }   
+});
