@@ -2,7 +2,7 @@
 function encodet(){
   
   var input = document.getElementById("inptext").value;
-  rencoded=encode(input);
+  var rencoded=encode(input);
   var output ="";
   var code1="";
   var final="";
