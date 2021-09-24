@@ -38,7 +38,7 @@ button:hover {
   box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div:hover{
- box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
+ box-shadow: rgba(10, 37, 64, 0) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0),-5px -5px 10px #ffffff00,rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div {
  padding:4px;
@@ -50,8 +50,7 @@ height: fit-content;
  background-color: white;
  font-size:40px;
  border-radius: 10px;
-   box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 20px rgba(8, 35, 62, 0.55),
-             -5px -5px 10px #ffffff;
+   box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0.55),-5px -5px 10px #ffffffff,rgba(10, 37, 64, 0) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.0) 0px 15px 20px 10px inset;;
   background: linear-gradient(145deg, #ffffff, #efefef);
  width: fit-content;
  max-width: 100%;
@@ -66,59 +65,3 @@ h1 {
  background-image: url("represent.jpg");
  background-size: 100% 58.8vw;
  }
-/*div::before {
-    animation: 10s rotate linear infinite;
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    border-radius:10px; 
-    padding:1px; 
-    background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
-    -webkit-mask: 
-       linear-gradient(#fff 0 0) content-box, 
-       linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out; 
-    mask-composite: exclude; 
-  }
-textarea::before {
-    animation: 10s rotate linear infinite;
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    border-radius:13px; 
-    padding:3px; 
-    background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
-    -webkit-mask: 
-       linear-gradient(#fff 0 0) content-box, 
-       linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out; 
-    mask-composite: exclude; 
-  }
-button::before {
-    animation: 10s rotate linear infinite;
-    content:"";
-    position:absolute;
-    top:0;
-    left:0;
-    right:0;
-    bottom:0;
-    border-radius:10px; 
-    padding:1px; 
-    background:linear-gradient(var(--angle),hsl(45, 100%, 50%),hsl(90, 100%, 50%),hsl(135, 100%, 50%),hsl(180, 100%, 50%),hsl(225, 100%, 50%),hsl(270, 100%, 50%),hsl(315, 100%, 50%),hsl(360, 100%, 50%)); 
-    -webkit-mask: 
-       linear-gradient(#fff 0 0) content-box, 
-       linear-gradient(#fff 0 0);
-    -webkit-mask-composite: destination-out; 
-    mask-composite: exclude; 
-  }
-@property --angle {
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
-  }*/
