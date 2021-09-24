@@ -1,5 +1,5 @@
 *{
- transition: all 1s ease-out;
+ transition: all 0.5s ease-out;
  }
 body {
  font-size:25px;
@@ -16,8 +16,7 @@ textarea {
   height :90px;
  font-size:40px; 
  position:relative;
- box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 20px rgba(8, 35, 62, 0.55),
-             -5px -5px 10px #ffffff;
+ box-shadow:  rgba(10, 37, 64, 0.25) -5px -5px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0.55),-5px -5px 10px #ffffffff,rgba(10, 37, 64, 0) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.0) 0px 15px 20px 10px inset;;
   background: linear-gradient(145deg, #ffffff, #efefef);
   }
 button {
@@ -27,15 +26,15 @@ button {
  background-color:white;
  font-size:40px; 
  width:200px;
- height:48px;
+ height:59px;
+  padding-bottom: 10px;
  border-radius: 10px;
-  box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,5px 5px 10px rgba(8, 35, 62, 0.55),
-             -5px -5px 10px #ffffff;
+  box-shadow:  rgba(10, 37, 64, 0.25) -3px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0.55),-5px -5px 10px #ffffffff,rgba(10, 37, 64, 0) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.0) 0px 15px 20px 10px inset;;
   background: linear-gradient(145deg, #ffffff, #efefef);
  }
 button:hover {
   cursor: pointer;
-  box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
+ box-shadow: rgba(10, 37, 64, 0) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0),-5px -5px 10px #ffffff00,rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 div:hover{
  box-shadow: rgba(10, 37, 64, 0) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0),-5px -5px 10px #ffffff00,rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
@@ -57,11 +56,17 @@ height: fit-content;
  }
 textarea:focus{
   outline: none;
- box-shadow: rgba(10, 37, 64, 0.6) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
+ box-shadow: rgba(10, 37, 64, 0) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0),-5px -5px 10px #ffffff00,rgba(10, 37, 64, 0.6) 6px 6px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
 }
 h1 {
  width:100%;
  height:58.8vw;
  background-image: url("represent.jpg");
  background-size: 100% 58.8vw;
+  border-radius: 60px;
+  box-shadow:  rgba(10, 37, 64, 0.25) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0.55),-5px -5px 10px #ffffffff,rgba(10, 37, 64, 0) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.0) 0px 15px 20px 10px inset;;
  }
+h1:hover{
+   box-shadow: rgba(10, 37, 64, 0) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0),-5px -5px 10px #ffffff00,rgba(10, 37, 64, 0.6) 10px 10px 10px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
+}
+
