@@ -9,8 +9,7 @@ var output;
 function copyToClipboard(text) {
     var dummy = document.createElement("textarea");
     // to avoid breaking orgain page when copying more words
-    // cant copy when adding below this code
-    // dummy.style.display = 'none'
+     dummy.style.opacity = "0";
     document.body.appendChild(dummy);
     //Be careful if you use texarea. setAttribute('value', value), which works with "input" does not work with "textarea". – Eduard
     dummy.value = text;
@@ -28,7 +27,6 @@ for (let num=0; num < seq.length; num++) {
   }
 setTimeout(function(){ 
     document.getElementById("out").innerHTML=output;
-  copyToClipboard(output);
 }, 100);
 }
 function decodet(){
@@ -40,9 +38,14 @@ function decodet(){
     }
   setTimeout(function(){ 
       document.getElementById("out2").innerHTML=output;
-     copyToClipboard(output);
   }, 100);
 }
 document.getElementsByTagName("h1")[0].ondblclick = function() {
  rotate();
 };
+function copyen(){
+  copyToClipboard(document.getElementById("out").innerHTML);
+}
+function copyde(){
+  copyToClipboard(document.getElementById("out2").innerHTML);
+}
