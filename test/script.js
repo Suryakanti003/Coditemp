@@ -1,17 +1,15 @@
-
 function encodet(){
-  
+  var encoding=document.getElementById("encoding").value;
   var input = document.getElementById("inptext").value;
-  var rencoded=encode(input);
   var output ="";
   var code1="";
   var final="";
-  var fo="";
+  encoding=parseInt(encoding);
   for (var i = 0; i < input.length; i++){
 
     code1=input[i].charCodeAt(0).toString(10);
 
- output =parseInt(code1)+1;
+ output =parseInt(code1)+encoding;
 
   final+=String.fromCodePoint(output);
 
@@ -21,7 +19,8 @@ function encodet(){
   }, 200);
 }
 function decodet(){
-
+  var encoding=document.getElementById("encoding").value;
+  encoding=parseInt(encoding);
   var input = document.getElementById("inptext2").value;
 
   var output ="";
@@ -36,18 +35,15 @@ function decodet(){
 
     code1=input[i].charCodeAt(0).toString(10);
 
- output =parseInt(code1)-1;
+ output =parseInt(code1)-encoding;
 
   final+=String.fromCodePoint(output);
 
 }
 
 /*  setTimeout(function(){ 
-
      for (var i = 0; i < final.length; i++){
-
      fo+= String.fromCodePoint(final[i]);
-
      }  }, 150);*/
 
    setTimeout(function(){ 
