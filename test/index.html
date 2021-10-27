@@ -11,13 +11,13 @@
     <h1></h1>
 <input placeholder="encoding" type="number" min="1" max="20" id="encoding" required>
 <input placeholder="encoding" type="number" min="1" max="20" id="encoding2" required>
-<textarea type="text" id="inptext" placeholder="text to encode"></textarea><br>
+<textarea type="text" id="inptext" placeholder="text to encode"onkeyup="textAreaAdjust(this)"></textarea><br>
 <button onclick="encodet()" ondblclick="copyen()" id="button">encode</button><br>
-<textarea id="out" placeholder="output" readonly></textarea>
+<textarea id="out" placeholder="output" readonly onkeyup="textAreaAdjust(this)"></textarea>
 <br><br><br><br><br><br>
-<textarea type="text" id="inptext2" placeholder="text to decode"></textarea><br>
+<textarea type="text" id="inptext2"onkeyup="textAreaAdjust(this)" placeholder="text to decode"></textarea><br>
 <button onclick="decodet()" ondblclick="copyde()" id="button2">decode</button><br>
-<textarea readonly id="out2" placeholder="output" "></textarea>
+<textarea readonly id="out2" placeholder="output" onkeyup="textAreaAdjust(this)"></textarea>
 <script src="script.js" defer></script>
 </body>
 </html>
