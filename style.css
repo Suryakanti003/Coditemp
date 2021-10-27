@@ -8,6 +8,7 @@
      align-content: center;
      }
    textarea {
+     padding: 5px;
     margin-top: 50px;
     border-style: none;
      resize: none;
@@ -37,9 +38,9 @@
     position:relative;
     background-color:white;
     font-size:40px; 
-    width:200px;
-    height:59px;
-     padding-bottom: 10px;
+    width:fit-content;
+    height:fit-content;
+     padding: 10px;
     border-radius: 10px;
      box-shadow:  rgba(10, 37, 64, 0.25) -3px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0.55),-5px -5px 10px #ffffffff,rgba(10, 37, 64, 0) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.0) 0px 15px 20px 10px inset;;
      background: linear-gradient(145deg, #ffffff, #efefef);
@@ -67,6 +68,7 @@
     max-width: 100%;
     }
    textarea:focus{
+     padding :10px;
      outline: none;
     box-shadow: rgba(10, 37, 64, 0) -2px -3px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0),-5px -5px 10px #ffffff00,rgba(10, 37, 64, 0.6) 6px 6px 6px 0px inset, rgba(10, 37, 64, 0.12) 0px 15px 20px 10px inset;
    }
