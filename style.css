@@ -13,8 +13,8 @@
     border-style: none;
      resize: none;
      width:90%;
-    border-radius: 13px;
-       min-height:90px;
+    border-radius: 18px;
+       min-height:120px;
      height :fit-content;
     font-size:40px; 
     position:relative;
@@ -23,11 +23,11 @@
      }
      input {
       margin-top: 50px;
-      border-style: none;
+      border-style: none; 
        resize: none;
        width:90%;
       border-radius: 13px;
-       height :90px;
+       height :70px;
       font-size:40px; 
       position:relative;
       box-shadow:  rgba(10, 37, 64, 0.25) -5px -5px 4px 4px inset,10px 10px 20px rgba(8, 35, 62, 0.55),-5px -5px 10px #ffffffff,rgba(10, 37, 64, 0) 4px 4px 6px 0px inset, rgba(10, 37, 64, 0.0) 0px 15px 20px 10px inset;;
