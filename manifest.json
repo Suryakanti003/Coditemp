@@ -1,0 +1,52 @@
+{
+    "short_name": "Codeitemp",
+    "name": "Codeitemp free and open souce encrypter",
+    "icons": [
+      {
+        "src": "codeitemp.svg",
+        "type": "image/svg+xml",
+        "sizes": "512x512"
+      },
+      {
+        "src": "codeitemp.png",
+        "type": "image/png",
+        "sizes": "800x800"
+      }
+    ],
+    "start_url": ".",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "theme_color": "#FCFCFC",
+    "shortcuts": [
+      {
+        "name": "codeitemp",
+        "short_name": "codeitemp",
+        "description": "codeitemp free and open source encryper",
+        "url": ".",
+        "icons": [ {
+            "src": "codeitemp.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+          }]
+      },
+      {
+        "name": "codeitemp beta",
+        "short_name": "codeitemp beta",
+        "description": "try latest codeitemp features your data may be lost",
+        "url": "./test",
+        "icons": [ {
+            "src": "codeitemp.svg",
+            "type": "image/svg+xml",
+            "sizes": "512x512"
+          }]
+      }
+    ],
+    "description": "cpdeitemp free and open source encrypter",
+    "screenshots": [
+      {
+        "src": "represent.png",
+        "type": "image/png",
+        "sizes": "1920x1080"
+      }
+    ]
+  }
