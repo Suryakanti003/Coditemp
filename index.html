@@ -2,22 +2,22 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="codeitemp.svg">
+    <link rel="shortcut icon" href="https://suryakanti003.github.io/Coditemp/codeitemp.svg">
     <meta charset="utf-8"/>
 <title>Coditmp free and open source encrypter and decrypter</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://suryakanti003.github.io/Coditemp/style.css">
 </head>
 <body>
     <h1></h1>
-<!--<input type="password" id="password">-->
+<input placeholder="encoding" type="number" min="1" max="20" id="encoding" required>
+<input placeholder="encoding" type="number" min="1" max="20" id="encoding2" required>
 <textarea type="text" id="inptext" placeholder="text to encode"></textarea><br>
-<button onclick="encodet()">encode</button><br>
-<div id="out">output</div>
+<button onclick="encodet()" ondblclick="copyen()" id="button">encode</button><br>
+<textarea id="out" placeholder="output" readonly></textarea>
 <br><br><br><br><br><br>
 <textarea type="text" id="inptext2" placeholder="text to decode"></textarea><br>
-<button onclick="decodet()">decode</button><br>
-    <div id="out2">output</div>
-<script src="script.js"></script>
-   
+<button onclick="decodet()" ondblclick="copyde()" id="button2">decode</button><br>
+<textarea readonly id="out2" placeholder="output"></textarea>
+<script src="script.js" defer></script>
 </body>
 </html>
