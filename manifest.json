@@ -21,7 +21,7 @@
       {
         "name": "codeitemp",
         "short_name": "codeitemp",
-        "description": "codeitemp free and open source encryper",
+        "description": "codeitemp free and open source encrypter",
         "url": ".",
         "icons": [ {
             "src": "codeitemp.svg",
@@ -41,7 +41,7 @@
           }]
       }
     ],
-    "description": "cpdeitemp free and open source encrypter",
+    "description": "coditemp free and open source encrypter",
     "screenshots": [
       {
         "src": "represent.jpg",
