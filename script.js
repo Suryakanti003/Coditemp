@@ -1,3 +1,4 @@
+document.getElementById("encoding").value=Math.floor((Math.random() * 99999) + 10101);
 function encodet(){
   document.getElementById("button").innerHTML="You can double click to copy";
   var encoding=(document.getElementById("encoding").value);
