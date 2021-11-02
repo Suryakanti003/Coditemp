@@ -1,4 +1,9 @@
-document.getElementById("encoding").value=Math.floor((Math.random() * 99999) + 10101);
+var min = 10000;
+
+var max = 99999;
+
+var num = Math.floor(Math.random() * (max - min + 1)) + min;
+document.getElementById("encoding").value=num;
 function encodet(){
   document.getElementById("button").innerHTML="You can double click to copy";
   var encoding=(document.getElementById("encoding").value);
