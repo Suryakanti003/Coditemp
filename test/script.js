@@ -45,7 +45,7 @@ function encodet(){
     if (i % 2 == 0) {
  output =parseInt(code1)+encoding1;
     } else {
-      output =parseInt(code1)+(100-encoding2);
+      output =parseInt(code1)+encoding2;
     }
   final+=String.fromCodePoint(output);
 
@@ -106,7 +106,7 @@ function decodet(){
     if (i % 2 == 0) {
  output =parseInt(code1)-encoding1;
     } else {
-      output =parseInt(code1)-(100-encoding2);
+      output =parseInt(code1)-encoding2;
     }
 
   final+=String.fromCodePoint(output);
