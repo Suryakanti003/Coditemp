@@ -140,6 +140,7 @@ if (keyused=true){
   }, 200);
   setTimeout(function(){ 
     document.getElementById("button2").innerHTML="decode"; 
+    document.getElementById("suggest").innerHTML="";
   },4000);
 
 }}
