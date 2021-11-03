@@ -142,7 +142,7 @@ if (keyused=true){
     document.getElementById("button2").innerHTML="decode"; 
   },4000);
 
-}
+}}
 function copyen(){
   var copyText = document.getElementById("out");
   copyText.select();
@@ -157,7 +157,7 @@ function copyde(){
   document.execCommand("copy");
  
 }
-}
+
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
       .register('sw.js')
