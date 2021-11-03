@@ -1,16 +1,21 @@
-var min = 10000;
-
-var max = 99999;
-
-var num = Math.floor(Math.random() * (max - min + 1)) + min;
-document.getElementById("encoding").value=num;
+var keyused=false;
+function changed(){
+  keyused=false;
+}
 function encodet(){
-  document.getElementById("button").innerHTML="You can double click to copy";
-  var encoding=(document.getElementById("encoding").value);
-  var input = document.getElementById("inptext").value;
+  keyused=true;
+var encoding=(document.getElementById("encoding").value);
+var input = document.getElementById("inptext").value;
+ if(encoding==""){
+  document.getElementById("suggest").innerHTML="please enter a 5 digit key of your choice";
+ } else if (input=="") {
+  document.getElementById("suggest").innerHTML="enter text to encrypt";
+ } else {
   var output ="";
   var code1="";
   var final="";
+  document.getElementById("button").innerHTML="You can double click to copy";
+  document.getElementById("suggest").innerHTML="suggestion:don't forget your encryption key";
   var ifu=parseInt(encoding.charAt(0));
   if(ifu=1) {
     console.log("abcd");
@@ -61,19 +66,28 @@ function encodet(){
   }, 200);
   setTimeout(function(){ 
     document.getElementById("button").innerHTML="encode"; 
-  },4000);
+    document.getElementById("suggest").innerHTML="";
+  },4000);}
 }
 function decodet(){
-  document.getElementById("button2").innerHTML="You can double click to copy";
-  var encoding=document.getElementById("encoding").value;
-  var input = document.getElementById("inptext2").value;
-
+var encoding=document.getElementById("encoding").value;
+var input = document.getElementById("inptext2").value;
+if(encoding==""){
+  document.getElementById("suggest").innerHTML="please enter a 5 digit key of your choice";
+  document.getElementById("suggest").scrollIntoView();
+} else if (input=="") {
+  document.getElementById("suggest").innerHTML="enter text to encrypt";
+ }else{
+if (keyused=true){
+  document.getElementById("suggest").innerHTML="do you want to use that key you can change it";
+}
   var output ="";
 
   var code1="";
 
   var final="";
   var ifu=parseInt(encoding.charAt(0));
+  document.getElementById("button2").innerHTML="You can double click to copy";
   if(ifu=1) {
     console.log("abcd");
     var encoding1 = parseInt(encoding.charAt(4))*10+(parseInt(encoding.charAt(3)));
@@ -142,14 +156,7 @@ function copyde(){
   document.getElementById("button2").innerHTML="decode"; 
   document.execCommand("copy");
  
- 
 }
-function textAreaAdjust(element) {
-
-  element.style.height = "1px";
-
-  element.style.height = (5+element.scrollHeight)+"px";
-
 }
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
