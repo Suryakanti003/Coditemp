@@ -76,7 +76,7 @@ if(encoding==""){
   document.getElementById("suggest").innerHTML="please enter a 5 digit key of your choice";
   document.getElementById("suggest").scrollIntoView();
 } else if (input=="") {
-  document.getElementById("suggest").innerHTML="enter text to encrypt";
+  document.getElementById("suggest").innerHTML="enter text to decrypt";
  }else{
 if (keyused=true){
   document.getElementById("suggest").innerHTML="do you want to use that key you can change it";
