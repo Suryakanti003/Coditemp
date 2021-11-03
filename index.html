@@ -33,10 +33,11 @@
 <body>
     <h1></h1>
     <button class="add-button" style="position: fixed;right: 0%;top: 0%;  z-index:100 ; ">install</button>
-<input required minlength="6" placeholder="encryption key" type="number" min="10101"size="6"  maxlength="6" max="99999" id="encoding" required>
+<input onchange="changed()" required minlength="6" placeholder="encryption key" type="number" min="10101"size="6"  maxlength="6" max="99999" id="encoding" required>
 <textarea type="text" id="inptext" placeholder="text to encode"></textarea><br>
 <button onclick="encodet()" ondblclick="copyen()" id="button">encode</button><br>
 <textarea id="out" placeholder="output" readonly></textarea>
+ <span id="suggest"></span>
 <br><br><br><br><br><br>
 <textarea type="text" id="inptext2" placeholder="text to decode"></textarea><br>
 <button onclick="decodet()" ondblclick="copyde()" id="button2">decode</button><br>
