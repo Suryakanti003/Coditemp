@@ -73,7 +73,7 @@ function decodet(){
 var encoding=document.getElementById("encoding").value;
 var input = document.getElementById("inptext2").value;
 if(encoding==""){
-  document.getElementById("suggest").innerHTML="please enter a 5 digit key of your choice";
+  document.getElementById("suggest").innerHTML="please enter a 5 digit encryption key";
   document.getElementById("suggest").scrollIntoView();
 } else if (input=="") {
   document.getElementById("suggest").innerHTML="enter text to decrypt";
