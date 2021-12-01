@@ -6,3 +6,4 @@ a encoder and decoder which you can use it will have a api too which you can use
 It encrypts using converting data in a weird form so that we cant understand
 ## while using test folder ensure you have your data backed up anywhere else
 currently under development but you can test it now
+## [library](/lib)
