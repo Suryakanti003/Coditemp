@@ -6,6 +6,9 @@ self.addEventListener('install', (e) => {
         './style.css',
            './codeitemp.svg',
            './represent.jpg',
+          './manifest.json',
+          './script.js',
+          './codeitemp2.png',
           './codeitemp.png',
       ])),
     );
